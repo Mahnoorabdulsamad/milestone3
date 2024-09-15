@@ -1,0 +1,143 @@
+body{
+    font-family: Arial;
+    margin: 20px;
+    background-color: rgb(200, 236, 224);
+}
+.heading{
+    color: blue;
+    font-size: xx-large;  
+    text-align: center;
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+}
+.maine{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 100px;
+    position: relative;
+    
+}
+.personal{
+    color: rgb(36, 22, 233);
+    background-color:rgb(179, 115, 239) ;
+    text-align: center;
+    padding: 15px;
+    font-size: x-large;
+}
+.forpic{
+    color:rgb(36, 22, 233) ;
+    }
+input[type="file"]{
+    font-size: 16px;
+    padding: 10px;
+    width: 250px;
+    background-color: rgb(181, 124, 234);
+    border-radius: 30px;
+    margin-top: 20px;
+}
+input[type="file"]::file.selector-button{
+    background-color:rgb(181, 124, 234); 
+    cursor: pointer;
+    font-size: large;
+    color: blue;
+    border-color:blue ;
+    border-radius: 10px;
+}
+form{
+    margin-bottom: 40px;
+}
+input,textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    background-color:rgb(226, 201, 249) ;
+    border-width: 3px;
+}
+
+#resumeOutput{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    border: 3px solid blue;
+    color: blue;
+    border-image: url(https://www.gettyimages.com/detail/photo/light-purple-and-white-roses-in-wedding-bouquet-royalty-free-image/157616997);
+
+}
+
+h1{
+    background-color:rgb(211, 184, 236); 
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+    }
+
+h2,p{
+    margin: 10px 0;
+
+}
+h2{
+    font-size:35px ;
+    font-family:  Arial;
+
+}
+p{
+    color:black ;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+img{
+    max-width: 150px;
+    border-radius: 50%;
+
+    height: 100px;
+    width: 100px;
+
+}
+
+@media (max-width: 600px){
+    body{
+        margin: 10px;
+
+    }
+form{
+    padding: 15px;
+    margin-bottom: 20px;
+
+}
+input,textArea{
+    font-size: 14px;
+    padding: 10px;
+
+}
+h2{
+    font-size: 1.5em;
+
+}
+p{
+    font-size: 1em;
+
+}
+img{
+    max-width: 100px;
+
+}
+input[type="submit"]{
+    padding: auto;
+
+}
+#resumeOutput{
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-left: -3px;
+
+}
+}
